@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Send, MessageCircle, Sparkles } from 'lucide-react';
 import Header from '../common/Header';
 import ListingCard from './ListingCard';
@@ -18,11 +18,29 @@ export default function ChatAssistant() {
   const [isTyping, setIsTyping] = useState(false);
   const [schedulerOpen, setSchedulerOpen] = useState(false);
   const [selectedListing, setSelectedListing] = useState(null);
+  const chatContainerRef = useRef(null);
+  const textareaRef = useRef(null);
+
+  useEffect(() => {
+    if (chatContainerRef.current) {
+      chatContainerRef.current.scrollTo({
+        top: chatContainerRef.current.scrollHeight,
+        behavior: 'smooth'
+      });
+    }
+  }, [messages, isTyping]);
+
+  useEffect(() => {
+    if (textareaRef.current) {
+      textareaRef.current.style.height = 'auto';
+      textareaRef.current.style.height = `${Math.min(textareaRef.current.scrollHeight, 160)}px`;
+    }
+  }, [input]);
 
   const handleSend = () => {
     if (!input.trim()) return;
 
-    const userMessage = { role: 'user', content: input };
+    const userMessage = { role: 'user', content: input.trim() };
     setMessages((prev) => [...prev, userMessage]);
     setInput('');
     setIsTyping(true);
@@ -66,6 +84,13 @@ export default function ChatAssistant() {
     setSchedulerOpen(true);
   };
 
+  const handleTextAreaKeyDown = (event) => {
+    if (event.key === 'Enter' && !event.shiftKey) {
+      event.preventDefault();
+      handleSend();
+    }
+  };
+
   return (
     <div className="min-h-screen bg-light-gray text-slate-900">
       <Header />
@@ -89,11 +114,11 @@ export default function ChatAssistant() {
         </div>
 
         <div className="grid gap-8 lg:grid-cols-[minmax(0,_380px)_1fr]">
-          <div className="flex flex-col rounded-3xl border border-slate-200 bg-white p-6 shadow-md">
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-md">
             <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-slate-800">
               <MessageCircle className="h-5 w-5 text-blueprint-blue" /> Conversation Canvas
             </h3>
-            <div className="flex-1 space-y-4 overflow-y-auto pr-2" style={{ maxHeight: '24rem' }}>
+            <div ref={chatContainerRef} className="h-96 space-y-4 overflow-y-auto pr-2">
               {messages.map((message, index) => (
                 <div
                   key={index}
@@ -114,16 +139,16 @@ export default function ChatAssistant() {
                 </div>
               )}
             </div>
-            <div className="mt-5 flex items-center gap-3">
-              <input
-                type="text"
+            <div className="mt-5 flex items-end gap-3">
+              <textarea
+                ref={textareaRef}
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
-                onKeyDown={(e) => e.key === 'Enter' && handleSend()}
+                onKeyDown={handleTextAreaKeyDown}
                 placeholder="Example: 3-bed home in Kettering under 400k"
-                className="h-11 flex-1 rounded-full border border-slate-200 bg-white px-5 text-sm text-slate-700 placeholder:text-slate-400 focus:border-blueprint-blue focus:outline-none"
+                className="max-h-40 flex-1 resize-none rounded-2xl border border-slate-200 bg-white px-5 py-3 text-sm text-slate-700 placeholder:text-slate-400 focus:border-blueprint-blue focus:outline-none"
               />
-              <Button onClick={handleSend} leadingIcon={Send} size="md">
+              <Button onClick={handleSend} leadingIcon={Send} size="md" className="self-center">
                 Send
               </Button>
             </div>
