@@ -1,0 +1,93 @@
+[
+  {
+    "zip": "45429",
+    "name": "Kettering South",
+    "demandIndex": 87,
+    "medianPrice": 385000,
+    "yoyChange": 4.8,
+    "daysOnMarket": 12,
+    "investorROI": 7.2
+  },
+  {
+    "zip": "45440",
+    "name": "Kettering North",
+    "demandIndex": 82,
+    "medianPrice": 395000,
+    "yoyChange": 5.1,
+    "daysOnMarket": 15,
+    "investorROI": 6.8
+  },
+  {
+    "zip": "45458",
+    "name": "Centerville",
+    "demandIndex": 91,
+    "medianPrice": 425000,
+    "yoyChange": 6.2,
+    "daysOnMarket": 8,
+    "investorROI": 8.1
+  },
+  {
+    "zip": "45459",
+    "name": "Centerville East",
+    "demandIndex": 88,
+    "medianPrice": 485000,
+    "yoyChange": 5.9,
+    "daysOnMarket": 10,
+    "investorROI": 7.5
+  },
+  {
+    "zip": "45434",
+    "name": "Beavercreek West",
+    "demandIndex": 85,
+    "medianPrice": 445000,
+    "yoyChange": 5.5,
+    "daysOnMarket": 13,
+    "investorROI": 7.0
+  },
+  {
+    "zip": "45432",
+    "name": "Beavercreek Central",
+    "demandIndex": 89,
+    "medianPrice": 465000,
+    "yoyChange": 6.5,
+    "daysOnMarket": 9,
+    "investorROI": 8.3
+  },
+  {
+    "zip": "45420",
+    "name": "Dayton East",
+    "demandIndex": 68,
+    "medianPrice": 285000,
+    "yoyChange": 3.2,
+    "daysOnMarket": 25,
+    "investorROI": 5.5
+  },
+  {
+    "zip": "45419",
+    "name": "Oakwood",
+    "demandIndex": 93,
+    "medianPrice": 575000,
+    "yoyChange": 7.1,
+    "daysOnMarket": 6,
+    "investorROI": 9.2
+  },
+  {
+    "zip": "45342",
+    "name": "Miamisburg",
+    "demandIndex": 79,
+    "medianPrice": 365000,
+    "yoyChange": 4.3,
+    "daysOnMarket": 18,
+    "investorROI": 6.4
+  },
+  {
+    "zip": "45424",
+    "name": "Huber Heights",
+    "medianPrice": 295000,
+    "demandIndex": 73,
+    "yoyChange": 3.8,
+    "daysOnMarket": 22,
+    "investorROI": 5.9
+  }
+]
+

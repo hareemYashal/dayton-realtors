@@ -1,0 +1,83 @@
+{
+  "1234 Maple Street": {
+    "estimatedValue": 385000,
+    "variance": { "low": 370000, "high": 400000 },
+    "comparables": [
+      {
+        "address": "1240 Maple Street, Kettering, OH 45429",
+        "price": 378000,
+        "sqft": 1800,
+        "soldDate": "2024-08-15",
+        "distance": 0.1
+      },
+      {
+        "address": "1250 Oak Avenue, Kettering, OH 45429",
+        "price": 392000,
+        "sqft": 1900,
+        "soldDate": "2024-09-22",
+        "distance": 0.3
+      },
+      {
+        "address": "1225 Elm Drive, Kettering, OH 45429",
+        "price": 385000,
+        "sqft": 1850,
+        "soldDate": "2024-07-10",
+        "distance": 0.2
+      }
+    ],
+    "priceHistory": [
+      { "date": "2020-01", "price": 320000 },
+      { "date": "2021-01", "price": 335000 },
+      { "date": "2022-01", "price": 355000 },
+      { "date": "2023-01", "price": 370000 },
+      { "date": "2024-01", "price": 385000 }
+    ],
+    "pricePerSqFt": [
+      { "address": "1240 Maple St", "pricePerSqFt": 210 },
+      { "address": "1250 Oak Ave", "pricePerSqFt": 206 },
+      { "address": "1225 Elm Dr", "pricePerSqFt": 208 },
+      { "address": "Subject Property", "pricePerSqFt": 208 }
+    ]
+  },
+  "5678 Oak Avenue": {
+    "estimatedValue": 395000,
+    "variance": { "low": 380000, "high": 410000 },
+    "comparables": [
+      {
+        "address": "5680 Oak Avenue, Kettering, OH 45440",
+        "price": 388000,
+        "sqft": 2050,
+        "soldDate": "2024-08-20",
+        "distance": 0.1
+      },
+      {
+        "address": "5690 Pine Street, Kettering, OH 45440",
+        "price": 402000,
+        "sqft": 2150,
+        "soldDate": "2024-09-10",
+        "distance": 0.2
+      },
+      {
+        "address": "5670 Birch Lane, Kettering, OH 45440",
+        "price": 395000,
+        "sqft": 2100,
+        "soldDate": "2024-07-28",
+        "distance": 0.15
+      }
+    ],
+    "priceHistory": [
+      { "date": "2020-01", "price": 330000 },
+      { "date": "2021-01", "price": 348000 },
+      { "date": "2022-01", "price": 368000 },
+      { "date": "2023-01", "price": 382000 },
+      { "date": "2024-01", "price": 395000 }
+    ],
+    "pricePerSqFt": [
+      { "address": "5680 Oak Ave", "pricePerSqFt": 189 },
+      { "address": "5690 Pine St", "pricePerSqFt": 187 },
+      { "address": "5670 Birch Ln", "pricePerSqFt": 188 },
+      { "address": "Subject Property", "pricePerSqFt": 188 }
+    ]
+  }
+}
+

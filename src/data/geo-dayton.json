@@ -1,0 +1,146 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "zip": "45429", "name": "Kettering South" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.168, 39.678],
+          [-84.168, 39.698],
+          [-84.138, 39.698],
+          [-84.138, 39.678],
+          [-84.168, 39.678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45440", "name": "Kettering North" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.168, 39.698],
+          [-84.168, 39.718],
+          [-84.138, 39.718],
+          [-84.138, 39.698],
+          [-84.168, 39.698]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45458", "name": "Centerville" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.138, 39.678],
+          [-84.138, 39.698],
+          [-84.108, 39.698],
+          [-84.108, 39.678],
+          [-84.138, 39.678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45459", "name": "Centerville East" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.108, 39.678],
+          [-84.108, 39.698],
+          [-84.078, 39.698],
+          [-84.078, 39.678],
+          [-84.108, 39.678]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45434", "name": "Beavercreek West" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.078, 39.698],
+          [-84.078, 39.718],
+          [-84.048, 39.718],
+          [-84.048, 39.698],
+          [-84.078, 39.698]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45432", "name": "Beavercreek Central" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.078, 39.718],
+          [-84.078, 39.738],
+          [-84.048, 39.738],
+          [-84.048, 39.718],
+          [-84.078, 39.718]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45420", "name": "Dayton East" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.168, 39.718],
+          [-84.168, 39.738],
+          [-84.138, 39.738],
+          [-84.138, 39.718],
+          [-84.168, 39.718]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45419", "name": "Oakwood" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.168, 39.738],
+          [-84.168, 39.758],
+          [-84.138, 39.758],
+          [-84.138, 39.738],
+          [-84.168, 39.738]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45342", "name": "Miamisburg" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.198, 39.638],
+          [-84.198, 39.658],
+          [-84.168, 39.658],
+          [-84.168, 39.638],
+          [-84.198, 39.638]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": { "zip": "45424", "name": "Huber Heights" },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-84.138, 39.738],
+          [-84.138, 39.758],
+          [-84.108, 39.758],
+          [-84.108, 39.738],
+          [-84.138, 39.738]
+        ]]
+      }
+    }
+  ]
+}
+

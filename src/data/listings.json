@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "address": "1234 Maple Street, Kettering, OH 45429",
+    "price": 385000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1850,
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=400&h=300&fit=crop",
+    "description": "Beautiful updated ranch in the heart of Kettering. Spacious living areas with modern finishes."
+  },
+  {
+    "id": 2,
+    "address": "5678 Oak Avenue, Kettering, OH 45440",
+    "price": 395000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2100,
+    "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?w=400&h=300&fit=crop",
+    "description": "Stunning 4-bedroom colonial with finished basement. Great for families."
+  },
+  {
+    "id": 3,
+    "address": "9012 Pine Lane, Kettering, OH 45429",
+    "price": 365000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1750,
+    "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=400&h=300&fit=crop",
+    "description": "Charming home with hardwood floors and updated kitchen. Move-in ready."
+  },
+  {
+    "id": 4,
+    "address": "3456 Elm Drive, Kettering, OH 45440",
+    "price": 399000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1950,
+    "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=400&h=300&fit=crop",
+    "description": "Contemporary home with open floor plan and large backyard."
+  },
+  {
+    "id": 5,
+    "address": "7890 Birch Court, Kettering, OH 45429",
+    "price": 375000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1800,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&h=300&fit=crop",
+    "description": "Well-maintained home in quiet neighborhood. Perfect starter home."
+  },
+  {
+    "id": 6,
+    "address": "2345 Cedar Street, Centerville, OH 45458",
+    "price": 425000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2300,
+    "image": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=400&h=300&fit=crop",
+    "description": "Luxurious home with high-end finishes and spacious master suite."
+  },
+  {
+    "id": 7,
+    "address": "6789 Spruce Road, Beavercreek, OH 45434",
+    "price": 445000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2450,
+    "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?w=400&h=300&fit=crop",
+    "description": "Custom-built home with premium features and wooded lot."
+  },
+  {
+    "id": 8,
+    "address": "1122 Willow Way, Kettering, OH 45429",
+    "price": 355000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1650,
+    "image": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=400&h=300&fit=crop",
+    "description": "Cozy home with updated bathrooms and fresh paint throughout."
+  },
+  {
+    "id": 9,
+    "address": "4455 Ash Boulevard, Kettering, OH 45440",
+    "price": 389000,
+    "beds": 3,
+    "baths": 2.5,
+    "sqft": 1900,
+    "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=300&fit=crop",
+    "description": "Modern ranch with finished lower level and patio."
+  },
+  {
+    "id": 10,
+    "address": "8877 Walnut Circle, Kettering, OH 45429",
+    "price": 372000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1775,
+    "image": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=400&h=300&fit=crop",
+    "description": "Great family home with large kitchen and fenced yard."
+  },
+  {
+    "id": 11,
+    "address": "3344 Hickory Place, Dayton, OH 45420",
+    "price": 285000,
+    "beds": 3,
+    "baths": 1.5,
+    "sqft": 1450,
+    "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=400&h=300&fit=crop",
+    "description": "Affordable home in established neighborhood near schools."
+  },
+  {
+    "id": 12,
+    "address": "5566 Poplar Avenue, Dayton, OH 45419",
+    "price": 310000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1550,
+    "image": "https://images.unsplash.com/photo-1598228723793-52759bba239c?w=400&h=300&fit=crop",
+    "description": "Updated cape cod with charm and character."
+  },
+  {
+    "id": 13,
+    "address": "9988 Cherry Lane, Miamisburg, OH 45342",
+    "price": 465000,
+    "beds": 5,
+    "baths": 3.5,
+    "sqft": 2800,
+    "image": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?w=400&h=300&fit=crop",
+    "description": "Executive home with gourmet kitchen and first-floor master."
+  },
+  {
+    "id": 14,
+    "address": "2211 Magnolia Drive, Centerville, OH 45459",
+    "price": 535000,
+    "beds": 5,
+    "baths": 4,
+    "sqft": 3200,
+    "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=400&h=300&fit=crop",
+    "description": "Stunning estate with luxury amenities and pool."
+  },
+  {
+    "id": 15,
+    "address": "7788 Dogwood Street, Kettering, OH 45440",
+    "price": 378000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1825,
+    "image": "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=400&h=300&fit=crop",
+    "description": "Lovely brick ranch with hardwood floors and fireplace."
+  },
+  {
+    "id": 16,
+    "address": "4433 Sycamore Road, Oakwood, OH 45419",
+    "price": 625000,
+    "beds": 4,
+    "baths": 3.5,
+    "sqft": 3500,
+    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=400&h=300&fit=crop",
+    "description": "Prestigious Oakwood home with elegant details throughout."
+  },
+  {
+    "id": 17,
+    "address": "6655 Beech Avenue, Kettering, OH 45429",
+    "price": 368000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1725,
+    "image": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=300&fit=crop",
+    "description": "Well-cared-for home with neutral decor and nice curb appeal."
+  },
+  {
+    "id": 18,
+    "address": "1199 Redwood Court, Kettering, OH 45440",
+    "price": 392000,
+    "beds": 4,
+    "baths": 2.5,
+    "sqft": 2050,
+    "image": "https://images.unsplash.com/photo-1600607687644-c7171b42498b?w=400&h=300&fit=crop",
+    "description": "Spacious two-story with formal dining and office."
+  },
+  {
+    "id": 19,
+    "address": "8822 Laurel Lane, Beavercreek, OH 45432",
+    "price": 485000,
+    "beds": 4,
+    "baths": 3,
+    "sqft": 2650,
+    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=400&h=300&fit=crop",
+    "description": "Beautiful home in sought-after Beavercreek schools."
+  },
+  {
+    "id": 20,
+    "address": "5544 Hemlock Drive, Kettering, OH 45429",
+    "price": 358000,
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1675,
+    "image": "https://images.unsplash.com/photo-1600607686527-6fb886090705?w=400&h=300&fit=crop",
+    "description": "Charming home with vaulted ceilings and skylights."
+  }
+]
+
